@@ -2,3 +2,5 @@ This is my final project for 3DMP class. I will create a cute Vorpal, the hexapo
 Here I will add updates to my progress
 Update 21.04: Studying the physics behind the robot, trying to understand each component and each force that will be applied on them in order to make it work properly. 
 Update 21.04: I added the f3d with the components of the robot. 
+Update 07.05: I finished the base, the head, hinges. 
+I have also made the legs, but I used the wrong dimension and I am currently working on adjusting their size to fit into the hinges. 
