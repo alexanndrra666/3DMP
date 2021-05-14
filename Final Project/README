@@ -4,3 +4,8 @@ Update 21.04: Studying the physics behind the robot, trying to understand each c
 Update 21.04: I added the f3d with the components of the robot. 
 Update 07.05: I finished the base, the head, hinges. 
 I have also made the legs, but I used the wrong dimension and I am currently working on adjusting their size to fit into the hinges. 
+Update 14.05: Vorpal is assambled, he can already dance 3 styles and lift his legs.
+To do:
+    - find the right engine and fit it inside
+    - Design details
+    - Controller 
