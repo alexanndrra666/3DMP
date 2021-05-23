@@ -1,5 +1,15 @@
-This is my final project for 3DMP class. I will create a cute Vorpal, the hexapod walking robot.
-Here I will add updates to my progress
+Vorpal The Hexapod Walking and Dancing Robot
+ !IMPORTANT: THE F3D OF THIS PROJECT CAN BE OPENED HERE: https://drive.google.com/file/d/1VZq2CfGuyoij0d_Uo3ncd2bA15t7Veuw/view?usp=sharing
+
+
+<span>: DESCRIPTION </span>
+
+This is my final project for 3DMP class. I have chosen Vorpal as a final project since I wanted to learn about 3D modelling an printing doing something fun too. 
+Vorpal is a little spider that dances, walks and can even lift objects with his little legs. It is a real product, that is sold for 50 to 500 dollars depending on the website,
+and of course the quality. Our journey together was challenging, since it was the first complex project I have done. 
+
+CHECKPOINTS UPDATE:
+ 
 Update 21.04: Studying the physics behind the robot, trying to understand each component and each force that will be applied on them in order to make it work properly. 
 Update 21.04: I added the f3d with the components of the robot. 
 Update 07.05: I finished the base, the head, hinges. 
@@ -9,3 +19,82 @@ To do:
     - find the right engine and fit it inside
     - Design details
     - Controller 
+Update 23.04: Vorpal is ready to be printed!
+
+
+His main components are:
+*Source for the components: https://vorpalrobotics.com/
+
+        Electronics:
+
+Passive Piezo Buzzer Module
+Arduino Nano, 5V, 16 mHz, ATMEGA328 or similar (marked R in our kit to indicate it is pre-loaded with robot software)
+Rotary potentiometer, 10K Ohms, 6mm shaft diameter, with 3 wires pre-soldered. Also, matching dial cap and nut.
+1 x HC05 BlueTooth Module with 4 x F-F jumper wires for making connections (Note: the HC05 has six pins but only four are used in this project. Also, this is in the Gamepad Parts bag if you purchase our kit.)
+1 x Servo Controller module (Adafruit 16-channel 12-bit I2C PWM/Servo driver or Adafruit clone) with F-F jumper wires for making connections, plus 1 two-pin shunt tying V+ to VCC
+12 x MG90 micro servo motors and associated servo horns (you will only use the single-arm horn). NOTE: If your kit includes O-rings or washers, you will need to use those on the shaft of the hip servos only. These are needed for digital servos only. Many counterfeit servos claim to be digital but are really analog and don't need the washers. For more information see Tower Pro MG90S Vs. Clones.
+1 x Power distribution wiring with on/off switch, Battery holder for two 18650 cells, 3A 5V BEC, and female connectors to distribute power. If you are self-sourcing see our Circuit Diagrams.
+3D Printed Parts:
+1 x Chassis
+1 x Cap
+6 x Legs (individually marked with servo numbers)
+1 x Switch adapter
+12 x Servo bracket U-shaped halves
+1 x Electronics Caddy
+1 x Stand
+1 x Eye/glasses Decoration
+1 x Joust game accessory with "rider"
+1 x Capture the Flag game accessory with flag and cup.
+1 x Fidget Spinner Challenge game accessory (no Fidget Spinner, just the stand)
+1 x Ultrasonic Rangefinder Bracket
+
+        Miscellaneous:
+9 x 10mm diameter pairs of hook and loop self-stick circular dots. These go on the hexapod cap (hook) and accessories like eyes and nameplates (loop).
+7 x 10mm diameter by 3mm thick ceramic magnet, north pole marked. These are for Capture-the-Flag and Joust accessories. (Note: Not included in Bare Bones kit).
+12 x socket head cap screw, 2.5mm diameter by 8mm long (for servo horns)
+3 x #6-32 x 1/2" screw to fasten on/off switch adapter (2) and to hold electronics caddy on chassis (3)
+2 x #6-32 x 3/4" screw for bottom two holes in accessory port.
+2 x #6-32 x 1/2" screw for top two holes in the accessory port.
+4 x #6-32 nuts to hold screws in accessory port.
+2 x #6-32 wingnuts to attach accessories to accessory port.
+1 x L shaped hex driver, 2mm, for both kinds of screw used in the kit.
+
+            GAMEPAD BOM
+
+        Electronics:
+1 x Battery/Switch Wiring Unit with 9v battery clip. (Note: the gamepad requires no BEC so you can use this fact to distinguish from the robot wiring unit)
+1 x 4x4 button matrix with associated connecting wires. The matrix we use is marked YL-102 in the corner. See the picture. It's blue and has the keys number K1 through K16. You may be able to use others but the pin numbers may differ.4x4-Matrix.png
+1 x Dpad Button module with associated connecting wires. The one we use is marked Keyes_AD_Key and has yellow buttons and a red circuit board. See picture.Keyes-AD-Key.PNG
+1 x HC05 Bluetooth module and four wires to connect it
+1 x microSD Card Reader module and six wires to connect it, and a microSD card that is compatible with the Arduino SD library. A microSD card is required for record/play features to work. The capacity should be 2 gb or less, either SD or SDHC format. The gamepad can be used to format the card for use by Arduino (hold down W4 while booting the gamepad, count to 10 slowly, release W4).
+1 x Ardunio Nano, 5V, 16 mHz, ATMEGA328 or similar (marked "G" in our kit to indicate it is pre-loaded with Gamepad software). Note: For MAC users it is far easier to get Scratch to work if the gamepad Nano uses an FTDI serial chip instead of a CHG34X chip. Our kits use the more expensive FTDI version of the Nano in the Gamepad for this reason.
+3D Printed Plastic Parts:
+1 x Gamepad base plastic part
+1 x Gamepad top plastic part
+1 x Gamepad button carrier
+
+
+The dimenssions from my project do not respect the ones above, since I wanted to do the math behind and learn by myself how he should work. It was a lot of geometry behind, 
+but I really enjoyed to see that he works just fine even if I did not use a template. 
+
+HOW IT WORKS?
+
+Vorpal is, in my opinion, a toy for young and old. It is designed to have a cute appearence, and does a lot of funny dances. I have made 4 motion studies to show a few of them,
+but he can do a lot more because of his servomotors in the legs and hinges. It comes with a gamepad and is absolutely wireless. He gets powered by 2 (or 4) batteries, that hide 
+inside his body. It is a really complex electric toy. He has bluetooth to communicate with the gamepad and a SD card to learn new dance moves. 
+
+JOINTS:
+
+The joints I have used in my project are:
+    - revolut:
+        - legs-to-hinge - limitated to max 90 min -90 rest 0
+        - hinge-to-base - limitated to max 60 min -60 rest 0
+    - rigid:
+        - legs-to-servomotor 
+        - base-to-servomotor
+        - hinge-to-hinge
+This way, Vorpal can walk and do every dance he wants. 
+
+SOFTWARE
+
+The software that helped me give life to Vorpal was Fusion 360. 
