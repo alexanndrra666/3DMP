@@ -2,7 +2,7 @@ Vorpal The Hexapod Walking and Dancing Robot
  !IMPORTANT: THE F3D OF THIS PROJECT CAN BE OPENED HERE: https://drive.google.com/file/d/1VZq2CfGuyoij0d_Uo3ncd2bA15t7Veuw/view?usp=sharing
 
 
-<span>: DESCRIPTION </span>
+DESCRIPTION
 
 This is my final project for 3DMP class. I have chosen Vorpal as a final project since I wanted to learn about 3D modelling an printing doing something fun too. 
 Vorpal is a little spider that dances, walks and can even lift objects with his little legs. It is a real product, that is sold for 50 to 500 dollars depending on the website,
@@ -30,11 +30,15 @@ His main components are:
 Passive Piezo Buzzer Module
 Arduino Nano, 5V, 16 mHz, ATMEGA328 or similar (marked R in our kit to indicate it is pre-loaded with robot software)
 Rotary potentiometer, 10K Ohms, 6mm shaft diameter, with 3 wires pre-soldered. Also, matching dial cap and nut.
-1 x HC05 BlueTooth Module with 4 x F-F jumper wires for making connections (Note: the HC05 has six pins but only four are used in this project. Also, this is in the Gamepad Parts bag if you purchase our kit.)
-1 x Servo Controller module (Adafruit 16-channel 12-bit I2C PWM/Servo driver or Adafruit clone) with F-F jumper wires for making connections, plus 1 two-pin shunt tying V+ to VCC
-12 x MG90 micro servo motors and associated servo horns (you will only use the single-arm horn). NOTE: If your kit includes O-rings or washers, you will need to use those on the shaft of the hip servos only. These are needed for digital servos only. Many counterfeit servos claim to be digital but are really analog and don't need the washers. For more information see Tower Pro MG90S Vs. Clones.
-1 x Power distribution wiring with on/off switch, Battery holder for two 18650 cells, 3A 5V BEC, and female connectors to distribute power. If you are self-sourcing see our Circuit Diagrams.
+1 x HC05 BlueTooth Module with 4 x F-F jumper wires for making connections 
+1 x Servo Controller module (Adafruit 16-channel 12-bit I2C PWM/Servo driver or Adafruit clone) with F-F jumper wires for making connections, plus 1 two-pin shunt tying V+ to
+VCC
+12 x MG90 micro servo motors and associated servo horns (you will only use the single-arm horn). NOTE: If your kit includes O-rings or washers, you will need to use those on 
+the shaft of the hip servos only. These are needed for digital servos only. Many counterfeit servos claim to be digital but are really analog and don't need the washers.
+For more information see Tower Pro MG90S Vs. Clones. 1 x Power distribution wiring with on/off switch, Battery holder for two 18650 cells, 3A 5V BEC, and female 
+connectors to distribute power. 
 3D Printed Parts:
+
 1 x Chassis
 1 x Cap
 6 x Legs (individually marked with servo numbers)
@@ -43,7 +47,6 @@ Rotary potentiometer, 10K Ohms, 6mm shaft diameter, with 3 wires pre-soldered. A
 1 x Electronics Caddy
 1 x Stand
 1 x Eye/glasses Decoration
-1 x Joust game accessory with "rider"
 1 x Capture the Flag game accessory with flag and cup.
 1 x Fidget Spinner Challenge game accessory (no Fidget Spinner, just the stand)
 1 x Ultrasonic Rangefinder Bracket
@@ -63,10 +66,11 @@ Rotary potentiometer, 10K Ohms, 6mm shaft diameter, with 3 wires pre-soldered. A
 
         Electronics:
 1 x Battery/Switch Wiring Unit with 9v battery clip. (Note: the gamepad requires no BEC so you can use this fact to distinguish from the robot wiring unit)
-1 x 4x4 button matrix with associated connecting wires. The matrix we use is marked YL-102 in the corner. See the picture. It's blue and has the keys number K1 through K16. You may be able to use others but the pin numbers may differ.4x4-Matrix.png
-1 x Dpad Button module with associated connecting wires. The one we use is marked Keyes_AD_Key and has yellow buttons and a red circuit board. See picture.Keyes-AD-Key.PNG
+1 x 4x4 button matrix with associated connecting wires. 
+1 x Dpad Button module with associated connecting wires. 
 1 x HC05 Bluetooth module and four wires to connect it
-1 x microSD Card Reader module and six wires to connect it, and a microSD card that is compatible with the Arduino SD library. A microSD card is required for record/play features to work. The capacity should be 2 gb or less, either SD or SDHC format. The gamepad can be used to format the card for use by Arduino (hold down W4 while booting the gamepad, count to 10 slowly, release W4).
+1 x microSD Card Reader module and six wires to connect it, and a microSD card that is compatible with the Arduino SD library. A microSD card is required for record/play
+features to work. The capacity should be 2 gb or less, either SD or SDHC format. The gamepad can be used to format the card for use by Arduino 
 1 x Ardunio Nano, 5V, 16 mHz, ATMEGA328 or similar (marked "G" in our kit to indicate it is pre-loaded with Gamepad software). Note: For MAC users it is far easier to get Scratch to work if the gamepad Nano uses an FTDI serial chip instead of a CHG34X chip. Our kits use the more expensive FTDI version of the Nano in the Gamepad for this reason.
 3D Printed Plastic Parts:
 1 x Gamepad base plastic part
@@ -98,3 +102,22 @@ This way, Vorpal can walk and do every dance he wants.
 SOFTWARE
 
 The software that helped me give life to Vorpal was Fusion 360. 
+
+ASSEMBLY RECOMANDATION:
+
+Buy the electronic parts, print the stl and meet your new friend. 
+
+FILES:
+
+Vorpal + Gamepad - stl, f3d
+Rendered images - jpg, png
+Rendered video - mp4
+
+REFERENCES:
+
+https://vorpalrobotics.com/
+https://www.thingiverse.com/thing:2513566
+
+SPECIAL MENTIONS: All the parts that need to be 3D printed are contained in my stl and f3d files, BUT I did not include all the electronics. It does have the servomotors, but 
+I did not add the wires, the battery drawer and a few buttons on the controller since they are completely electronic and designed special for Vorpal and I couldn't find an 
+stl model of them.  
