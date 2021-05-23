@@ -112,12 +112,30 @@ FILES:
 Vorpal + Gamepad - stl, f3d
 Rendered images - jpg, png
 Rendered video - mp4
+Electronics CaddyFINAL.stl
+Gamepad BASEFINAL.stl
+Gamepad Battery Drawer FINAL.stl
+Gamepad button carrier FINAL.stl
+Gamepad Cover FINAL.stl
+BaseFINAL.stl
+LegFINAL.stl
+HeadFINAL.stl
+HingeFINAL.stl
+EyesFINAL.stl
+Electronics Caddy BarsFINAL.stl
+
 
 REFERENCES:
 
-https://vorpalrobotics.com/
-https://www.thingiverse.com/thing:2513566
+- Vorpal Robotics
+- Thingiverse ( https://www.thingiverse.com/thing:2513566 )
+- GrabCad
 
-SPECIAL MENTIONS: All the parts that need to be 3D printed are contained in my stl and f3d files, BUT I did not include all the electronics. It does have the servomotors, but 
+SPECIAL MENTIONS: 
+1. All the parts that need to be 3D printed are contained in my stl and f3d files, BUT I did not include all the electronics. It does have the servomotors, but 
 I did not add the wires, the battery drawer and a few buttons on the controller since they are completely electronic and designed special for Vorpal and I couldn't find an 
 stl model of them.  
+2. There is a component that I forgot to delete "Engine" and it's empty. I wanted do draw the servomotor as well, but I was told it is ok to upload an stl file for the parts
+that won't be printed or not upload anything at all, so all the servomotors are in stl format downloaded from GRABCAD 
+3. I made a 3-4 sketches without activating a certain component because i needed to cut more than one component, and I forgot to delete them after cutting. 
+
